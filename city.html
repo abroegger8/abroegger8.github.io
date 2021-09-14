@@ -21,8 +21,81 @@
             </div>
             </div>
 
-            <img src="images/wanchai.jpg" alt="wanchai" width="600" height="600">
-
+            <!-- The grid: four columns -->
+            <div class="row">
+                <div class="column">
+                    <img src="images/wanchai.jpg" alt="Wanchai" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="images/rooftop.jpg" alt="Causeway Bay" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="img_mountains.jpg" alt="Mountains" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                    <img src="img_lights.jpg" alt="Lights" onclick="myFunction(this);">
+                </div>
+            </div>
+  
+            <!-- The expanding image container -->
+            <div class="container">
+            <!-- Close the image -->
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  
+            <!-- Expanded image -->
+            <img id="expandedImg" style="width:100%">
+  
+            <!-- Image text -->
+            <div id="imgtext"></div>
+            </div>
         </body>
+        <style>
+            .column {
+            float: left;
+            width: 25%;
+            padding: 10px;
+            }
+
+            .column img {
+            opacity: 0.8;
+            cursor: pointer;
+            }
+  
+            .column img:hover {
+            opacity: 1;
+            }
+  
+            /* Clear floats after the columns */
+            .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+  
+            /* The expanding image container (positioning is needed to position the close button and the text) */
+            .container {
+            position: relative;
+            display: none;
+            }
+  
+            /* Expanding image text */
+            #imgtext {
+            position: absolute;
+            bottom: 15px;
+            left: 15px;
+            color: white;
+            font-size: 20px;
+            }
+  
+            /* Closable button inside the image */
+            .closebtn {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            color: white;
+            font-size: 35px;
+            cursor: pointer;
+            }
+        </style>
     </head>
 </html>
