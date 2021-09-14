@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <style>
+        li {
+            display:inline;
+        }
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(28, 8, 77);
+        }  
+
+        ul {
+  float: left;
+            }
+
+        ul {
+            display: block;
+             color: rgb(255, 255, 255);
+             text-align: center;
+             padding: 14px 16px;
+            text-decoration: none;
+            }
+            .active {
+  background-color: #04AA6D;
+}
+
+li a:hover {
+  background-color: #111;
+}
+        </style>
+    </head>
+    <body>
+        <h1>Home Kong </h1>
+        <nav>
+            <ul>
+              <li><strong>Home</strong></li>
+              <li><a href="city.html">The City</a></li>
+              <li><a href="nature.html">The Nature</a></li>
+              <li><a href="people.html">The People</a></li>
+            </ul>
+          </nav>
+    </body>
+</html>
+
