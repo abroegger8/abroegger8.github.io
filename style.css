@@ -13,12 +13,12 @@ a:hover{
     background-color: lightblue;
 }
 
+.text {
+    color: rgb(21, 53, 196);
+}
+
 @media screen and {max-width: 700px) {
     body {
         background-color: blue;
     }   
     }   
-
-div.visit {
-    color: rgb(255, 8, 214);
-}
