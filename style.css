@@ -5,16 +5,20 @@ span.w3-wide    {
     color:rgb(199, 6, 45)
 }
 
-a{
-    color:rgb(39, 176, 180)
-}
-
 a:hover{
     background-color: lightblue;
 }
 
+a{
+    color:rgb(45, 120, 122)
+}
+
 .text {
     color: rgb(33, 46, 105);
+}
+
+#like {
+    color: red;
 }
 
 @media screen and {max-width: 700px) {
