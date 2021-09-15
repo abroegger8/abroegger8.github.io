@@ -1,0 +1,25 @@
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+
+span.w3-wide    {
+    color:rgb(199, 6, 45)
+}
+
+a{
+    color:darkslateblue
+}
+
+a:hover{
+    background-color: lightblue;
+}
+
+@media screen and {max-width: 700px) {
+    body {
+        background-color: blue;
+    }   
+    }   
+
+div.wanchai {
+    color: lightskyblue;
+}
+
