@@ -6,7 +6,7 @@ span.w3-wide    {
 }
 
 a{
-    color:rgb(27, 159, 163)
+    color:rgb(39, 176, 180)
 }
 
 a:hover{
@@ -14,7 +14,7 @@ a:hover{
 }
 
 .text {
-    color: rgb(21, 53, 196);
+    color: rgb(33, 46, 105);
 }
 
 @media screen and {max-width: 700px) {
